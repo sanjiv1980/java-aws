@@ -18,15 +18,7 @@ import java.util.List;
 public class DemoApplication {
 
     public static void main(String[] args) {
-        //System.out.println("processing started");
-        //String arn = "arn:aws:iam::702162754193:role/dp-role-fed-gen-dbk-activation-prod";
-        //String arn = "arn:aws:iam::716915692812:role/dtci-admin";
         ConfigurableApplicationContext ctx = SpringApplication.run(DemoApplication.class, args);
-        //ApplicationContext applicationContext = SpringApplication.run(DemoApplication.class, args);
-        //Service service = ctx.getBean(Service.class);
-        //List<Bucket> buckets = service.listBuckets(arn);
-        //System.out.println(buckets);
-       // System.out.println("processing closed");
        // ctx.close();
     }
     @Bean
